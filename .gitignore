@@ -1,8 +1,11 @@
-# ビルド成果物を無視
-/app/build/
-/gradle/
-/.gradle/
+# ビルド関連のファイルやディレクトリを無視する
+build/
+app/build/
 
-# ログファイルを無視
-*.log
+# 余分なIDEファイル
+.vscode/
+.DS_Store
+
+# Gradleの設定ファイル
+.gradle/
 
